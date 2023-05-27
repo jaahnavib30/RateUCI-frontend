@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Navigate, Routes, Route } from "react-router-dom";
 import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './pages/home/home'
 import reportWebVitals from './reportWebVitals';
 
