@@ -15,7 +15,7 @@ function CardGrid(props){
     }
 
     return (
-        <Row xs={1} md={2} className="g-4">
+        <Row className="grid-container">
             {cards}
         </Row>);
 }

@@ -27,6 +27,7 @@ function Home() {
     return (
         <div>
             <NavBar />
+            <h4> UPCOMING EVENTS </h4>
             <CardGrid events={data["events"]}/>
         </div>);
 }
