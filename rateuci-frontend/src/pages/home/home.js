@@ -5,6 +5,7 @@ function Home() {
     return (
         <div>
             <NavBar />
+            
             <EventCard event_name='Hello World!'/>
         </div>);
 }

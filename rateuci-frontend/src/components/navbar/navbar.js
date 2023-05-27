@@ -1,14 +1,19 @@
 import './navbar.css'
+import Nav from 'react-bootstrap/Nav'
 
 function NavBar() {
     return (
-        <nav className="navbar-container">
-            <div className='tabs-container'>
-                <a className='nav-link' href='./home'>tab 1</a>
-                <a className='nav-link' href='./page-2'>tab 2</a>
-                <a className='nav-link' href='./page-3'>tab 3</a>
-            </div>
-        </nav>)
+        <Nav className='justify-content-center'>
+            <Nav.Item>
+                <Nav.Link eventKey='home'>Tab1</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+                <Nav.Link eventKey='page2'>Tab2</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+                <Nav.Link eventKey='page3'>Tab3</Nav.Link>
+            </Nav.Item>
+        </Nav>)
 }
 
 export default NavBar;
